@@ -68,7 +68,7 @@ if(isset($_POST['submit'])){
     'BusinessShortCode' => $BusinessShortCode,
     'Password' => $Password,
     'Timestamp' => $Timestamp,
-    'TransactionType' => 'CustomerPayBillOnline',
+    'TransactionType' => 'CustomerBuyGoodsOnline',
     'Amount' => $Amount,
     'PartyA' => $PartyA,
     'PartyB' => $BusinessShortCode,
