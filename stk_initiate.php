@@ -11,7 +11,7 @@ if(isset($_POST['submit'])){
   # define the variales
   # provide the following details, this part is found on your test credentials on the developer account
   $BusinessShortCode = '4025875';
-  $Passkey = '58a9a2c12811eaa0114ed27c060a76abbca7af8fb547f7e293d20ef0523a4a7d ';  
+  $Passkey = '58a9a2c12811eaa0114ed27c060a76abbca7af8fb547f7e293d20ef0523a4a7d';  
   
   /*
     This are your info, for
@@ -42,7 +42,7 @@ if(isset($_POST['submit'])){
   $initiate_url = 'https://api.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
 
   # callback url
-  $CallBackURL = 'https://morning-basin-87523.herokuapp.com/callback_url.php';  
+  $CallBackURL = 'https://mighty-woodland-79741.herokuapp.com/';  
 
   $curl = curl_init($access_token_url);
   curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
